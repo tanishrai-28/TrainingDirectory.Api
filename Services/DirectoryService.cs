@@ -1,4 +1,3 @@
-
 namespace TrainingDirectory.Api.Services;
 
 public class DirectoryService : IDirectoryService

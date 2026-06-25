@@ -14,7 +14,7 @@ public class DirectoryController: ControllerBase
         _service = service;
     }
 
-    [HttpGet("/trainee/{traineeId}")]
+    [HttpGet("trainee/{traineeId}")]
     public async Task<IActionResult> GetProfile(long traineeId)
     {
         var profile =  await _service.GetProfileAsync(traineeId);
